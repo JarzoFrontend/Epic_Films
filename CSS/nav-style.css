@@ -1,0 +1,116 @@
+/*
+
+General Styles Start
+
+*/
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	transition: all 0.3s;
+}
+
+.row{
+	width: 100%;
+	text-align: center;
+}
+
+.col-5{
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+
+h2{
+	padding-top: 50px;
+	padding-bottom: 15px;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+/*
+
+General Styles Stop
+
+*/
+
+
+/*
+
+Menu Start
+
+*/
+
+#menu {
+	position: fixed;
+	z-index: 1030;
+	width: 100%;
+	height: 10vh;
+}
+
+nav#menu .toggle,
+[id=drop] {
+	display: none;
+}
+
+#menu .brand_logo {
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 10%;
+	height: 10vh;
+	margin: 5px;
+	;
+}
+
+#menu ul {
+	margin: 0;
+	text-align: right;
+	padding: 0 50px;
+}
+
+#menu ul>li.item-menu {
+	display: inline-block;
+	padding: 25px 20px;
+}
+
+#menu ul>li.item-menu .text_menu {
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+}
+
+#menu ul>li.item-menu a:hover {
+	color: #ff000f;
+}
+
+.scroll {
+	background-color: #fff;
+	color: #000;
+}
+
+.text_move {
+	color: #000;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.brand_logo_white {
+	background-image: url(../img/brand_white.png);
+}
+
+.brand_logo_black {
+	background-image: url(../img/brand_black.png);
+}
+
+
+/*
+
+Menu Stop
+
+*/
