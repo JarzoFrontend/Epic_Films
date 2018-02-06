@@ -1,0 +1,276 @@
+/*
+
+General Styles Start
+
+*/
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	transition: all 0.3s;
+}
+
+.row{
+	width: 100%;
+	text-align: center;
+}
+
+.col-5{
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+
+h2{
+	padding-top: 50px;
+	padding-bottom: 15px;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 25px;
+	text-align: center;
+}
+/*
+
+General Styles Stop
+
+*/
+
+
+/*
+
+Menu Start
+
+*/
+
+#menu {
+	position: fixed;
+	z-index: 1030;
+	width: 100%;
+	height: 10vh;
+}
+.menu_oferta{
+	background: #000;
+}
+
+nav#menu .toggle,
+[id=drop] {
+	display: none;
+}
+
+#menu .brand_logo {
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 10%;
+	height: 10vh;
+	margin: 5px;
+	;
+}
+
+#menu ul {
+	margin: 0;
+	text-align: right;
+	padding: 0 50px;
+}
+
+#menu ul>li.item-menu {
+	display: inline-block;
+	padding: 25px 20px;
+}
+
+#menu ul>li.item-menu .text_menu {
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+}
+
+#menu ul>li.item-menu a:hover {
+	color: #ff000f;
+}
+
+.scroll {
+	background-color: #fff;
+	color: #000;
+}
+
+.text_move {
+	color: #000;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.brand_logo_white {
+	background-image: url(../img/brand_white.png);
+}
+
+.brand_logo_black {
+	background-image: url(../img/brand_black.png);
+}
+
+
+/*
+
+Menu Stop
+
+*/
+
+
+
+/*
+
+Studio filmowe Strat
+
+*/
+
+.studio_filmowe {
+	height: 130vh;
+	position: relative;
+}
+
+.studio_text {
+	text-align: center;
+	width: 45%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 40vh;
+}
+
+.studio_text>p {
+	line-height: 25px;
+	font-weight: 300;
+}
+
+.studio_text>hr {
+	margin-top: 5%;
+	height: 4px;
+	border-color: #000;
+	background-color: #000;
+	width: 45%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.studio_icons {
+	width: 100%;
+	height: 90vh;
+	position: absolute;
+	top: 30%;
+}
+
+.studio_icons .row {
+	height: 30vh;
+}
+
+.studio_icons .row .col-5 {
+	height: 30vh;
+}
+
+.studio_icons .row .col-5 .material-icons {
+	font-size: 68px;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	color: #ff000f;
+}
+
+
+/*
+
+Studio filmowe Stop
+
+*/
+/*
+
+Footer Start
+
+*/
+footer{
+	height: 50vh;
+	background-color: #000;
+	position: relative;
+}
+
+footer .footer_caption{
+	width: 50%;
+	height: 45vh;
+	padding-top: 50px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	
+		
+}
+
+footer .footer_caption .logo_footer{
+	background-image: url(../img/brand_white.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 20vh;
+}
+
+footer .footer_caption .footer_text {
+text-align: center;	
+	height: 5vh;
+}
+
+footer .footer_caption .footer_text a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+
+footer .footer_caption .footer_text a:hover{
+	color: #b3b3b3;
+}
+
+footer .footer_caption .footer_icons{
+	width: 50%;
+	height: 5vh;
+	color: #fff;
+	left:50%;
+	position: absolute;
+	transform: translateX(-50%);
+	text-align: center;
+}
+
+footer .footer_caption .footer_icons i{
+	padding: 20px 20px;
+	font-size: 25px;
+	transition: all .3s;
+}
+
+footer .footer_caption .footer_icons i:hover{
+	color: #b3b3b3;
+}
+footer .created_by{
+	width: 100%;
+	height: 5vh;
+	text-align: center;
+	position: absolute;
+	top: 90%;
+}
+
+footer .created_by a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 10px;
+	transition: all .3s;
+}
+
+footer .created_by a:hover{
+	color: #b3b3b3;
+}
+/*
+
+Footer Stop
+
+*/

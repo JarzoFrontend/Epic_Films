@@ -16,7 +16,7 @@ Header #video Start
 #main-header .video-caption {
 	background-color: rgba(255, 255, 255, 0.5);
 	width: 50%;
-	height: 50%;
+	height: 50vh;
 	position: absolute;
 	top: 70%;
 	left: 50%;
@@ -39,72 +39,6 @@ Header #video Stop
 
 */
 
-
-/*
-
-Studio filmowe Strat
-
-*/
-
-#studio_filmowe {
-	height: 130vh;
-	position: relative;
-}
-
-.studio_text {
-	text-align: center;
-	width: 45%;
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
-	height: 40vh;
-}
-
-.studio_text>p {
-	line-height: 25px;
-	font-weight: 300;
-}
-
-.studio_text>hr {
-	margin-top: 5%;
-	height: 4px;
-	border-color: #000;
-	background-color: #000;
-	width: 45%;
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
-}
-
-.studio_icons {
-	width: 100%;
-	height: 90vh;
-	position: absolute;
-	top: 30%;
-}
-
-.studio_icons .row {
-	height: 30vh;
-}
-
-.studio_icons .row .col-5 {
-	height: 30vh;
-}
-
-.studio_icons .row .col-5 .material-icons {
-	font-size: 68px;
-	padding-top: 50px;
-	padding-bottom: 20px;
-	text-transform: uppercase;
-	color: #ff000f;
-}
-
-
-/*
-
-Studio filmowe Stop
-
-*/
 
 
 /*
@@ -175,7 +109,7 @@ Dlaczego my Stop
 
 /*
 
-Film Star
+Film Start
 
 */
 
@@ -193,8 +127,17 @@ Film Star
 	border: none;
 }
 
+/*
 
-/*Dlaczego video*/
+Film Stop
+
+*/
+
+/*
+
+Dlaczego video
+
+*/
 
 #dlaczegovideo {
 	height: 90vh;
@@ -237,18 +180,19 @@ Film Star
 	font-weight: 300;
 	text-transform: uppercase;
 	font-size: 13px;
-	padding-top: 15px;
+	padding: 15px 10px 0px 10px;
 }
 #dlaczegovideo .video_icons .row .col-5 .padd{
-	padding-top: 25px;
+	padding-top: 30px;
 }
 
 
 /*
 
-Film Star
+Dlaczego video
 
 */
+
 
 
 /*
@@ -276,6 +220,7 @@ Dron Start
 #dron .dron_text h2{
 	font-weight: 300;
 	letter-spacing: 5px;
+	text-align: inherit;
 }
 #dron .dron_text p{
 	font-size: 14px;
@@ -292,92 +237,3 @@ Dron Start
 
 */
 
-/*
-
-Footer Start
-
-*/
-footer{
-	height: 50vh;
-	background-color: #000;
-	position: relative;
-}
-
-footer .footer_caption{
-	width: 50%;
-	height: 45vh;
-	padding-top: 50px;
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
-	
-		
-}
-
-footer .footer_caption .logo_footer{
-	background-image: url(../img/brand_white.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 20vh;
-}
-
-footer .footer_caption .footer_text {
-text-align: center;	
-	height: 5vh;
-}
-
-footer .footer_caption .footer_text a{
-	text-decoration: none;
-	color: #fff;
-	font-size: 14px;
-	letter-spacing: 2px;
-	transition: all .3s;
-}
-
-footer .footer_caption .footer_text a:hover{
-	color: #b3b3b3;
-}
-
-footer .footer_caption .footer_icons{
-	width: 50%;
-	height: 5vh;
-	color: #fff;
-	left:50%;
-	position: absolute;
-	transform: translateX(-50%);
-	text-align: center;
-}
-
-footer .footer_caption .footer_icons i{
-	padding: 20px 20px;
-	font-size: 25px;
-	transition: all .3s;
-}
-
-footer .footer_caption .footer_icons i:hover{
-	color: #b3b3b3;
-}
-footer .created_by{
-	width: 100%;
-	height: 5vh;
-	text-align: center;
-	position: absolute;
-	top: 90%;
-}
-
-footer .created_by a{
-	text-decoration: none;
-	color: #fff;
-	font-size: 10px;
-	transition: all .3s;
-}
-
-footer .created_by a:hover{
-	color: #b3b3b3;
-}
-/*
-
-Footer Stop
-
-*/

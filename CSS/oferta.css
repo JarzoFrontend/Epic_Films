@@ -1,0 +1,124 @@
+/*
+
+Header oferta start
+
+*/
+#main-header-oferta{
+	width: 100%;
+	height: 90vh;
+	background-image: url(../img/background_oferta.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+#main-header-oferta .header-caption{
+	width: 40%;
+	height: 40vh;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -60%);
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+#main-header-oferta .header-caption h1{
+	font-size: 80px;
+	letter-spacing: 20px;
+	font-weight: 500;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+#main-header-oferta .header-caption h3{
+	font-weight: 500;
+	padding-bottom: 50px;
+}
+#main-header-oferta .header-caption a{
+	text-decoration: none;
+	color: #fff;
+	padding: 15px 30px;
+	background-color: #ff000f;
+	border: 1px solid #fff;
+}
+
+#main-header-oferta .header-caption a:hover{
+	color: #ff000f;
+	background-color: #fff;
+	border:2px solid #ff000f;
+}
+/*
+
+Header oferta stop
+
+*/
+
+/*
+
+Nasz Sprzęt Start
+
+*/
+#nasz_sprzet{
+	width: 100%;
+	height: 260vh;
+	position: relative;
+}
+
+#nasz_sprzet h2{
+	padding-bottom: 30px;
+	letter-spacing: 5px;
+}
+#nasz_sprzet hr{
+	width: 8%;
+	height: 2px;
+	border-color: #000;
+	background-color: #000;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+#nasz_sprzet .sprzet{
+	width: 100%;
+	height: 220vh;
+}
+#nasz_sprzet .sprzet .row{
+	width: 100%;
+	height: 60vh;
+	padding-top: 50px;
+}
+#nasz_sprzet .sprzet .row .col-1-2{
+	width: 50%;
+	height: 50vh;
+	float: left;
+	position: relative;
+}
+#nasz_sprzet .sprzet .row .col-1-2 .sprzet_opis{
+	width: 60%;
+/*	border: 1px solid red;*/
+	position: absolute;
+	top:30%;
+	left: 20%;
+}
+#nasz_sprzet .sprzet .row .col-1-2 .sprzet_opis h3{
+	font-weight: 500;
+	text-align: left;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+}
+#nasz_sprzet .sprzet .row .col-1-2 .sprzet_opis hr{
+	left: 5%;
+	width: 10%;
+}
+#nasz_sprzet .sprzet .row .col-1-2 .sprzet_opis p{
+	padding-top: 20px;
+	text-align: left;
+	font-size: 12px;
+	font-weight: 300;
+}
+/*
+
+Nasz Sprzęt Stop
+
+*/
